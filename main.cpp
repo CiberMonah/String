@@ -4,14 +4,9 @@
 #include <conio.h>
 #include "mystring.h"
 
-int main()
-{
-    char source[] = "Muha = malenkaya ptica";
+int main() {
+    /*char s1[] = "Veloseped";
+    char s2[] = "Samocat";*/
 
-    char* target = my_str_dup(source);
-
-    printf("%s", target);
-    free(target);
-
-    return 0;
+    test_functions();
 }
